@@ -1,0 +1,70 @@
+
+.white_box {
+  background-color:white;
+  /* border: solid 2px black; */
+  width: 600px;
+  height: 300px;
+  z-index: -1;
+  position: absolute;
+
+  display:grid;
+  /* grid-template-columns: 200px 200px 200px; */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+
+
+}
+
+div {
+  background-color:darkcyan;
+  height: 100px;
+}
+
+#section4 {
+  grid-column: span 3;
+  width: 600px;
+  height: 200px;
+  justify-self: center;
+}
+
+#section5 {
+  grid-column: span 3;
+  width: 600px;
+  height: 10px;
+  justify-self: center;
+  background-color: lightgreen;
+  margin-top: -5px;
+}
+
+.dot1 {
+  height: 75px;
+  width: 75px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 95px;
+}
+
+.dot2 {
+  height: 75px;
+  width: 75px;
+  background-color: palevioletred;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 185px;
+  top: 145px;
+}
+
+form {
+  position: absolute;
+  top: 420px;
+  gap: 20px;
+}
+
+#submit-btn {
+  justify-content: center;
+  background-color: lightsteelblue;
+}
